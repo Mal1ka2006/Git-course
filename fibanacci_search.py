@@ -23,4 +23,8 @@ def fibonacci_search(arr,n,target):
     if f1=1 and arr[offset+1]==target:
         return offset+1
     return -1
+arr=[12,14,16,17,20,24,31,43]
+n=len(arr)
+target=20
+print(fibanacci_search(arr,n,target))
                
