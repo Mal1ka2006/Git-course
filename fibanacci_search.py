@@ -7,6 +7,7 @@ def fibonacci_search(arr,n,target):
         f2=f1
         f1=f
         f=f2+f1
+<<<<<<< HEAD
     while f>1:
         i=min(offset+f2,n-1)
         if arr[i]<target:
@@ -28,3 +29,5 @@ n=len(arr)
 target=20
 print(fibanacci_search(arr,n,target))
                
+=======
+>>>>>>> nav-bar
